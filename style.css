@@ -17,6 +17,10 @@ h1 {
     border: 1px solid #5f6368;
     background-color: #212529;
     color: white;
+    margin: auto;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .searchFieldControl:hover {
@@ -28,10 +32,21 @@ h1 {
     background: #303134!important;
 }
 
+.search-input:hover {
+    border: 1px solid #303134;
+    background: #303134;
+}
+
+.search-input:focus {
+    background: #303134!important;
+}
+
+
 .search-input {
     width: 50%;
     margin: auto;
     margin-top: 20px;
+    display: flex;
 }
 
 
@@ -70,8 +85,13 @@ h1 {
     margin: auto;
     margin-top: 25px;
     border-radius: 5px;
+    transition: 1s;
 }
 
 p {
     padding: 10px;
+}
+
+.search-ic {
+    color: red;
 }
